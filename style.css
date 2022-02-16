@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+h1, h5{
+    margin: 0;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.hero-text-box{
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero-text-box h5{
+    font-size: 50px;
+    color: #e67e22 ;
+
+}
+.hero-text-box h1{
+    font-size: 50px;
+    font-weight: 200;
+}
+.social-icons ul li a{
+    font-size: 20px;
+    color:rgb(248, 241, 241);
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+}
+#hero .ah-headline .ah-words-wrapper::after{
+    background-color: #5dade2;
+    height: 80%;
+}
+.text{
+    color: #5dade2;
+    font-size: 45px;
+}# Animation-Headline
